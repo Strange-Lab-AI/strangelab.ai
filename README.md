@@ -1,52 +1,25 @@
-# strangelab.ai placeholder site
+# strangelab.ai
 
-This project builds a small static site from markdown files.
+Small markdown-driven site for `strangelab.ai`.
 
-## Edit the page
+## Files that matter
 
-Update `content/site.md` for the home page.
+- `content/site.md` holds the page text.
+- `public/styles.css` holds the styling.
+- `scripts/build.mjs` turns the markdown into static files in `dist/`.
 
-Add project pages in `content/projects/`.
-
-## Build locally
+## Work on it locally
 
 ```bash
 npm install
-npm run build
-```
-
-The generated site lands in `dist/`.
-
-## Preview locally
-
-```bash
 npm run build
 npm run preview
 ```
 
 Open `http://localhost:4173`.
 
-## Deploy to Cloudflare Pages
+## Publish
 
-### Git-based deploy
+Push to `main`.
 
-Create a GitHub or GitLab repository, push this folder, and create a Pages project in the Cloudflare dashboard.
-
-Use these build settings:
-
-- Build command: `npm run build`
-- Build output directory: `dist`
-
-### Direct upload
-
-If you want a quick manual deploy from your machine, build the site and run:
-
-```bash
-npx wrangler pages deploy dist
-```
-
-### Custom domain
-
-After the project is live on `*.pages.dev`, add your real domain in the Cloudflare Pages dashboard under **Custom domains**.
-
-Cloudflare's docs note that you should add the domain inside the Pages project first. Manually creating a CNAME before that can leave the domain broken with a `522` error.
+GitHub Actions rebuilds the site and deploys `dist/` to the existing Cloudflare Pages project automatically.
