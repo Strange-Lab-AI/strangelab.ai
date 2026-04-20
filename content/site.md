@@ -11,3 +11,4 @@ To show what's possible, VEI built one for Enron, everyone's favourite accountin
 - [What Would a World with AGI Look Like?](https://www.strangeloopcanon.com/p/what-would-a-world-with-agi-look)
 - [Epicycles All the Way Down](https://www.strangeloopcanon.com/p/epicycles-all-the-way-down)
 - [Seeing Like an Agent](https://www.strangeloopcanon.com/p/seeing-like-an-agent)
+- [Can we build a management flight simulator?](https://www.strangeloopcanon.com/p/can-we-build-a-management-flight)
