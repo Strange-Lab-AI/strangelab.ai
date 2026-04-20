@@ -1,6 +1,6 @@
 # Strange Lab
 
-We build world models of companies. Make work like a [videogame](https://github.com/strangeloopcanon/vei).
+We build world models of companies. Make work a [videogame](https://github.com/strangeloopcanon/vei).
 
 To see what's possible, VEI built one for Enron, everyone's favourite accounting scandal. Using internal email, financial, and news data, we can test real forks inside the company's history. We can look at the PG&E power deal and ask whether Enron should've held for a credit recheck or pushed it through. We can look at the California crisis case and test halting the strategy or changing the loop. We can look at the Watkins follow-up and test whether the whistleblower note to Ken Lay should have gone to the board and legal, and what might have happened. These, and dozens of others, are all consequential decisions where the ability to test a counterfactual with a world model would've been extremely useful.
 
